@@ -54,6 +54,6 @@ displacement=dampedMatrix(:,2);
 time=dampedMatrix(:,1);
 plot(time,displacement,'r-','linewidth',2);
 xlabel('time(t)');
-ylabel('displacement x(t)');
+ylabel('displacement x(t)'); 
 title('graph of displacement x(t) Vs. time t in damped harmonic oscillator');
 end
